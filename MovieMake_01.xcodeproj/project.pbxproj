@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19DBE2A61AB1080500D77B0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DBE2A51AB1080500D77B0E /* Foundation.framework */; };
+		19DBE2A81AB1080500D77B0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DBE2A71AB1080500D77B0E /* CoreGraphics.framework */; };
+		19DBE2AA1AB1080500D77B0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DBE2A91AB1080500D77B0E /* UIKit.framework */; };
+		19DBE2B01AB1080500D77B0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19DBE2AE1AB1080500D77B0E /* InfoPlist.strings */; };
+		19DBE2B21AB1080500D77B0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DBE2B11AB1080500D77B0E /* main.m */; };
+		19DBE2B61AB1080500D77B0E /* HZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DBE2B51AB1080500D77B0E /* HZAppDelegate.m */; };
+		19DBE2B91AB1080500D77B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19DBE2B71AB1080500D77B0E /* Main.storyboard */; };
+		19DBE2BC1AB1080500D77B0E /* HZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DBE2BB1AB1080500D77B0E /* HZViewController.m */; };
+		19DBE2BE1AB1080500D77B0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19DBE2BD1AB1080500D77B0E /* Images.xcassets */; };
+		19DBE2C51AB1080500D77B0E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DBE2C41AB1080500D77B0E /* XCTest.framework */; };
+		19DBE2C61AB1080500D77B0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DBE2A51AB1080500D77B0E /* Foundation.framework */; };
+		19DBE2C71AB1080500D77B0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DBE2A91AB1080500D77B0E /* UIKit.framework */; };
+		19DBE2CF1AB1080500D77B0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19DBE2CD1AB1080500D77B0E /* InfoPlist.strings */; };
+		19DBE2D11AB1080500D77B0E /* MovieMake_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DBE2D01AB1080500D77B0E /* MovieMake_01Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19DBE2C81AB1080500D77B0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19DBE29A1AB1080500D77B0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19DBE2A11AB1080500D77B0E;
+			remoteInfo = MovieMake_01;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19DBE2A21AB1080500D77B0E /* MovieMake_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieMake_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19DBE2A51AB1080500D77B0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19DBE2A71AB1080500D77B0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		19DBE2A91AB1080500D77B0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		19DBE2AD1AB1080500D77B0E /* MovieMake_01-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MovieMake_01-Info.plist"; sourceTree = "<group>"; };
+		19DBE2AF1AB1080500D77B0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19DBE2B11AB1080500D77B0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19DBE2B31AB1080500D77B0E /* MovieMake_01-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovieMake_01-Prefix.pch"; sourceTree = "<group>"; };
+		19DBE2B41AB1080500D77B0E /* HZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZAppDelegate.h; sourceTree = "<group>"; };
+		19DBE2B51AB1080500D77B0E /* HZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZAppDelegate.m; sourceTree = "<group>"; };
+		19DBE2B81AB1080500D77B0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19DBE2BA1AB1080500D77B0E /* HZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZViewController.h; sourceTree = "<group>"; };
+		19DBE2BB1AB1080500D77B0E /* HZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZViewController.m; sourceTree = "<group>"; };
+		19DBE2BD1AB1080500D77B0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19DBE2C31AB1080500D77B0E /* MovieMake_01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieMake_01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19DBE2C41AB1080500D77B0E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		19DBE2CC1AB1080500D77B0E /* MovieMake_01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MovieMake_01Tests-Info.plist"; sourceTree = "<group>"; };
+		19DBE2CE1AB1080500D77B0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19DBE2D01AB1080500D77B0E /* MovieMake_01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieMake_01Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19DBE29F1AB1080500D77B0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DBE2A81AB1080500D77B0E /* CoreGraphics.framework in Frameworks */,
+				19DBE2AA1AB1080500D77B0E /* UIKit.framework in Frameworks */,
+				19DBE2A61AB1080500D77B0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DBE2C01AB1080500D77B0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DBE2C51AB1080500D77B0E /* XCTest.framework in Frameworks */,
+				19DBE2C71AB1080500D77B0E /* UIKit.framework in Frameworks */,
+				19DBE2C61AB1080500D77B0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19DBE2991AB1080500D77B0E = {
+			isa = PBXGroup;
+			children = (
+				19DBE2AB1AB1080500D77B0E /* MovieMake_01 */,
+				19DBE2CA1AB1080500D77B0E /* MovieMake_01Tests */,
+				19DBE2A41AB1080500D77B0E /* Frameworks */,
+				19DBE2A31AB1080500D77B0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19DBE2A31AB1080500D77B0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19DBE2A21AB1080500D77B0E /* MovieMake_01.app */,
+				19DBE2C31AB1080500D77B0E /* MovieMake_01Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19DBE2A41AB1080500D77B0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19DBE2A51AB1080500D77B0E /* Foundation.framework */,
+				19DBE2A71AB1080500D77B0E /* CoreGraphics.framework */,
+				19DBE2A91AB1080500D77B0E /* UIKit.framework */,
+				19DBE2C41AB1080500D77B0E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19DBE2AB1AB1080500D77B0E /* MovieMake_01 */ = {
+			isa = PBXGroup;
+			children = (
+				19DBE2B41AB1080500D77B0E /* HZAppDelegate.h */,
+				19DBE2B51AB1080500D77B0E /* HZAppDelegate.m */,
+				19DBE2B71AB1080500D77B0E /* Main.storyboard */,
+				19DBE2BA1AB1080500D77B0E /* HZViewController.h */,
+				19DBE2BB1AB1080500D77B0E /* HZViewController.m */,
+				19DBE2BD1AB1080500D77B0E /* Images.xcassets */,
+				19DBE2AC1AB1080500D77B0E /* Supporting Files */,
+			);
+			path = MovieMake_01;
+			sourceTree = "<group>";
+		};
+		19DBE2AC1AB1080500D77B0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19DBE2AD1AB1080500D77B0E /* MovieMake_01-Info.plist */,
+				19DBE2AE1AB1080500D77B0E /* InfoPlist.strings */,
+				19DBE2B11AB1080500D77B0E /* main.m */,
+				19DBE2B31AB1080500D77B0E /* MovieMake_01-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19DBE2CA1AB1080500D77B0E /* MovieMake_01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				19DBE2D01AB1080500D77B0E /* MovieMake_01Tests.m */,
+				19DBE2CB1AB1080500D77B0E /* Supporting Files */,
+			);
+			path = MovieMake_01Tests;
+			sourceTree = "<group>";
+		};
+		19DBE2CB1AB1080500D77B0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19DBE2CC1AB1080500D77B0E /* MovieMake_01Tests-Info.plist */,
+				19DBE2CD1AB1080500D77B0E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19DBE2A11AB1080500D77B0E /* MovieMake_01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19DBE2D41AB1080500D77B0E /* Build configuration list for PBXNativeTarget "MovieMake_01" */;
+			buildPhases = (
+				19DBE29E1AB1080500D77B0E /* Sources */,
+				19DBE29F1AB1080500D77B0E /* Frameworks */,
+				19DBE2A01AB1080500D77B0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovieMake_01;
+			productName = MovieMake_01;
+			productReference = 19DBE2A21AB1080500D77B0E /* MovieMake_01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19DBE2C21AB1080500D77B0E /* MovieMake_01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19DBE2D71AB1080500D77B0E /* Build configuration list for PBXNativeTarget "MovieMake_01Tests" */;
+			buildPhases = (
+				19DBE2BF1AB1080500D77B0E /* Sources */,
+				19DBE2C01AB1080500D77B0E /* Frameworks */,
+				19DBE2C11AB1080500D77B0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19DBE2C91AB1080500D77B0E /* PBXTargetDependency */,
+			);
+			name = MovieMake_01Tests;
+			productName = MovieMake_01Tests;
+			productReference = 19DBE2C31AB1080500D77B0E /* MovieMake_01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19DBE29A1AB1080500D77B0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LitterDeveloper;
+				TargetAttributes = {
+					19DBE2C21AB1080500D77B0E = {
+						TestTargetID = 19DBE2A11AB1080500D77B0E;
+					};
+				};
+			};
+			buildConfigurationList = 19DBE29D1AB1080500D77B0E /* Build configuration list for PBXProject "MovieMake_01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19DBE2991AB1080500D77B0E;
+			productRefGroup = 19DBE2A31AB1080500D77B0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19DBE2A11AB1080500D77B0E /* MovieMake_01 */,
+				19DBE2C21AB1080500D77B0E /* MovieMake_01Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19DBE2A01AB1080500D77B0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DBE2BE1AB1080500D77B0E /* Images.xcassets in Resources */,
+				19DBE2B01AB1080500D77B0E /* InfoPlist.strings in Resources */,
+				19DBE2B91AB1080500D77B0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DBE2C11AB1080500D77B0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DBE2CF1AB1080500D77B0E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19DBE29E1AB1080500D77B0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DBE2BC1AB1080500D77B0E /* HZViewController.m in Sources */,
+				19DBE2B61AB1080500D77B0E /* HZAppDelegate.m in Sources */,
+				19DBE2B21AB1080500D77B0E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DBE2BF1AB1080500D77B0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DBE2D11AB1080500D77B0E /* MovieMake_01Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19DBE2C91AB1080500D77B0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19DBE2A11AB1080500D77B0E /* MovieMake_01 */;
+			targetProxy = 19DBE2C81AB1080500D77B0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19DBE2AE1AB1080500D77B0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19DBE2AF1AB1080500D77B0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		19DBE2B71AB1080500D77B0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19DBE2B81AB1080500D77B0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19DBE2CD1AB1080500D77B0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19DBE2CE1AB1080500D77B0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19DBE2D21AB1080500D77B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19DBE2D31AB1080500D77B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19DBE2D51AB1080500D77B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MovieMake_01/MovieMake_01-Prefix.pch";
+				INFOPLIST_FILE = "MovieMake_01/MovieMake_01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19DBE2D61AB1080500D77B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MovieMake_01/MovieMake_01-Prefix.pch";
+				INFOPLIST_FILE = "MovieMake_01/MovieMake_01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		19DBE2D81AB1080500D77B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MovieMake_01.app/MovieMake_01";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MovieMake_01/MovieMake_01-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MovieMake_01Tests/MovieMake_01Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		19DBE2D91AB1080500D77B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MovieMake_01.app/MovieMake_01";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MovieMake_01/MovieMake_01-Prefix.pch";
+				INFOPLIST_FILE = "MovieMake_01Tests/MovieMake_01Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19DBE29D1AB1080500D77B0E /* Build configuration list for PBXProject "MovieMake_01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DBE2D21AB1080500D77B0E /* Debug */,
+				19DBE2D31AB1080500D77B0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19DBE2D41AB1080500D77B0E /* Build configuration list for PBXNativeTarget "MovieMake_01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DBE2D51AB1080500D77B0E /* Debug */,
+				19DBE2D61AB1080500D77B0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19DBE2D71AB1080500D77B0E /* Build configuration list for PBXNativeTarget "MovieMake_01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DBE2D81AB1080500D77B0E /* Debug */,
+				19DBE2D91AB1080500D77B0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19DBE29A1AB1080500D77B0E /* Project object */;
+}
