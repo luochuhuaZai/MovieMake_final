@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190EE0FD1AB4071E00032048 /* LetItGo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 190EE0FC1AB4071E00032048 /* LetItGo.mp3 */; };
+		190EE1011AB40EEB00032048 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 190EE0FE1AB40EEB00032048 /* 3.jpg */; };
+		190EE1021AB40EEB00032048 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 190EE0FF1AB40EEB00032048 /* 2.jpg */; };
+		190EE1031AB40EEB00032048 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 190EE1001AB40EEB00032048 /* 1.jpg */; };
+		199E4E891ABA8FE90050D30F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199E4E881ABA8FE90050D30F /* CoreImage.framework */; };
 		19DBE2A61AB1080500D77B0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DBE2A51AB1080500D77B0E /* Foundation.framework */; };
 		19DBE2A81AB1080500D77B0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DBE2A71AB1080500D77B0E /* CoreGraphics.framework */; };
 		19DBE2AA1AB1080500D77B0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DBE2A91AB1080500D77B0E /* UIKit.framework */; };
@@ -21,6 +26,13 @@
 		19DBE2C71AB1080500D77B0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DBE2A91AB1080500D77B0E /* UIKit.framework */; };
 		19DBE2CF1AB1080500D77B0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19DBE2CD1AB1080500D77B0E /* InfoPlist.strings */; };
 		19DBE2D11AB1080500D77B0E /* MovieMake_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DBE2D01AB1080500D77B0E /* MovieMake_01Tests.m */; };
+		19DBE2DB1AB1082600D77B0E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DBE2DA1AB1082600D77B0E /* AVFoundation.framework */; };
+		19DBE2E31AB1547D00D77B0E /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = 19DBE2DD1AB1547D00D77B0E /* 04.png */; };
+		19DBE2E41AB1547D00D77B0E /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 19DBE2DE1AB1547D00D77B0E /* 03.png */; };
+		19DBE2E51AB1547D00D77B0E /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = 19DBE2DF1AB1547D00D77B0E /* 05.png */; };
+		19DBE2E61AB1547D00D77B0E /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 19DBE2E01AB1547D00D77B0E /* 02.png */; };
+		19DBE2E71AB1547D00D77B0E /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 19DBE2E11AB1547D00D77B0E /* 01.png */; };
+		19DBE2E81AB1547D00D77B0E /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = 19DBE2E21AB1547D00D77B0E /* 06.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		190EE0FC1AB4071E00032048 /* LetItGo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LetItGo.mp3; sourceTree = "<group>"; };
+		190EE0FE1AB40EEB00032048 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		190EE0FF1AB40EEB00032048 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		190EE1001AB40EEB00032048 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		199E4E881ABA8FE90050D30F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		19DBE2A21AB1080500D77B0E /* MovieMake_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieMake_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19DBE2A51AB1080500D77B0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		19DBE2A71AB1080500D77B0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +70,13 @@
 		19DBE2CC1AB1080500D77B0E /* MovieMake_01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MovieMake_01Tests-Info.plist"; sourceTree = "<group>"; };
 		19DBE2CE1AB1080500D77B0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		19DBE2D01AB1080500D77B0E /* MovieMake_01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieMake_01Tests.m; sourceTree = "<group>"; };
+		19DBE2DA1AB1082600D77B0E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		19DBE2DD1AB1547D00D77B0E /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		19DBE2DE1AB1547D00D77B0E /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		19DBE2DF1AB1547D00D77B0E /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
+		19DBE2E01AB1547D00D77B0E /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		19DBE2E11AB1547D00D77B0E /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		19DBE2E21AB1547D00D77B0E /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				199E4E891ABA8FE90050D30F /* CoreImage.framework in Frameworks */,
+				19DBE2DB1AB1082600D77B0E /* AVFoundation.framework in Frameworks */,
 				19DBE2A81AB1080500D77B0E /* CoreGraphics.framework in Frameworks */,
 				19DBE2AA1AB1080500D77B0E /* UIKit.framework in Frameworks */,
 				19DBE2A61AB1080500D77B0E /* Foundation.framework in Frameworks */,
@@ -79,6 +105,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		190EE0FB1AB4071500032048 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				190EE0FC1AB4071E00032048 /* LetItGo.mp3 */,
+			);
+			name = sound;
+			sourceTree = "<group>";
+		};
 		19DBE2991AB1080500D77B0E = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +135,8 @@
 		19DBE2A41AB1080500D77B0E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				199E4E881ABA8FE90050D30F /* CoreImage.framework */,
+				19DBE2DA1AB1082600D77B0E /* AVFoundation.framework */,
 				19DBE2A51AB1080500D77B0E /* Foundation.framework */,
 				19DBE2A71AB1080500D77B0E /* CoreGraphics.framework */,
 				19DBE2A91AB1080500D77B0E /* UIKit.framework */,
@@ -126,6 +162,8 @@
 		19DBE2AC1AB1080500D77B0E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				190EE0FB1AB4071500032048 /* sound */,
+				19DBE2DC1AB1545C00D77B0E /* images */,
 				19DBE2AD1AB1080500D77B0E /* MovieMake_01-Info.plist */,
 				19DBE2AE1AB1080500D77B0E /* InfoPlist.strings */,
 				19DBE2B11AB1080500D77B0E /* main.m */,
@@ -150,6 +188,22 @@
 				19DBE2CD1AB1080500D77B0E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19DBE2DC1AB1545C00D77B0E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				190EE0FE1AB40EEB00032048 /* 3.jpg */,
+				190EE0FF1AB40EEB00032048 /* 2.jpg */,
+				190EE1001AB40EEB00032048 /* 1.jpg */,
+				19DBE2DD1AB1547D00D77B0E /* 04.png */,
+				19DBE2DE1AB1547D00D77B0E /* 03.png */,
+				19DBE2DF1AB1547D00D77B0E /* 05.png */,
+				19DBE2E01AB1547D00D77B0E /* 02.png */,
+				19DBE2E11AB1547D00D77B0E /* 01.png */,
+				19DBE2E21AB1547D00D77B0E /* 06.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +283,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190EE1011AB40EEB00032048 /* 3.jpg in Resources */,
+				190EE1031AB40EEB00032048 /* 1.jpg in Resources */,
+				19DBE2E41AB1547D00D77B0E /* 03.png in Resources */,
 				19DBE2BE1AB1080500D77B0E /* Images.xcassets in Resources */,
+				19DBE2E71AB1547D00D77B0E /* 01.png in Resources */,
+				19DBE2E51AB1547D00D77B0E /* 05.png in Resources */,
+				19DBE2E81AB1547D00D77B0E /* 06.png in Resources */,
+				190EE1021AB40EEB00032048 /* 2.jpg in Resources */,
+				19DBE2E61AB1547D00D77B0E /* 02.png in Resources */,
+				19DBE2E31AB1547D00D77B0E /* 04.png in Resources */,
+				190EE0FD1AB4071E00032048 /* LetItGo.mp3 in Resources */,
 				19DBE2B01AB1080500D77B0E /* InfoPlist.strings in Resources */,
 				19DBE2B91AB1080500D77B0E /* Main.storyboard in Resources */,
 			);
@@ -377,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MovieMake_01/MovieMake_01-Prefix.pch";
 				INFOPLIST_FILE = "MovieMake_01/MovieMake_01-Info.plist";
@@ -390,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MovieMake_01/MovieMake_01-Prefix.pch";
 				INFOPLIST_FILE = "MovieMake_01/MovieMake_01-Info.plist";
@@ -457,6 +523,7 @@
 				19DBE2D61AB1080500D77B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19DBE2D71AB1080500D77B0E /* Build configuration list for PBXNativeTarget "MovieMake_01Tests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +532,7 @@
 				19DBE2D91AB1080500D77B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
